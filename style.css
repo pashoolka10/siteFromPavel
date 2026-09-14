@@ -144,6 +144,12 @@ section {
   font-weight: bold;
 }
 
+.product-card .product-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
 .product-card .product-actions a {
   display: inline-block;
   border: 1px solid #999;
