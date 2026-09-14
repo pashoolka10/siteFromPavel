@@ -102,11 +102,15 @@ section {
   display: flex;
   flex-direction: column;
   gap: 8px;
+  min-width: 0;
+  overflow: hidden;
 }
 
 .product-card .product-image {
   border: 1px dashed #999;
   height: 140px;
+  width: 100%;
+  min-width: 0;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -116,6 +120,9 @@ section {
 }
 
 .product-card .product-image img {
+  display: block;
+  width: auto;
+  height: auto;
   max-width: 100%;
   max-height: 100%;
   object-fit: contain;
